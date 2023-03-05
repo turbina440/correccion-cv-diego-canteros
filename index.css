@@ -1,0 +1,100 @@
+*{font-family: sans-serif ;
+	padding: 0;
+	margin: 0;}
+
+header a{ padding:10px;
+color: white;}
+
+header{background: black;
+text-align:right; 
+padding: 10px}
+
+img{width: 200px;
+	border-radius: 100%;
+padding-top: 10px}
+
+.nav__ul{
+	padding: 10px;}
+
+.container-foto{background-image: url("fondo1.jpg");
+	background-size: cover;
+color: white;
+text-align: center ;
+width: 100%}
+
+.button{background: #200042;
+	width: 180px;
+	 border-radius: 50px;
+padding: 10px;
+margin: 5px;
+border: 1pt solid orange;
+color: white;}
+
+.button:hover{background-color: transparent;}
+
+
+.centrar-boton{
+	text-align: center;}
+
+a{	text-decoration: none;}
+
+li{display: block;
+	padding: 5px ;
+	text-align: left;}
+
+li img{width: 80px}	
+
+i {color: red;
+padding-right: 10px;}
+
+.fa-facebook{color: #0080FF;}
+
+.cv, .contacto, .experiencia, .educacion {margin: 0px 20px}
+
+.cv p{padding: 10px;
+	font-size: 30px;
+	font-weight: 10px;
+	text-align: left;}
+
+body{background-image: URL(https://www.mheducation.es/download-resource/blog/20-problema-abierto-para-la-computacion-600.jpg);}
+
+#main h3{color: #200042;
+	text-align: center;
+	text-decoration: underline;
+	padding: 10px;}
+
+#main{display: none;
+	
+	background-image:url(https://img.freepik.com/vector-premium/fondo-vector-placa-base-computadora-elementos-electronicos-placa-circuito-textura-electronica_208588-2175.jpg?w=360);
+	background-size: cover;
+width: 100%}
+
+#ocultar-footer, {display: none;
+	background: #200042;
+	width: 100%;}
+
+.redes li{display: inline-block;
+    padding: 10px;
+    top: 10px;
+    text-align: center;
+    display: inline-block;}
+
+p{text-align: center;}
+
+ h3{text-align: center;
+    color: #5324CD;
+    text-decoration: underline;}
+
+.h3{color: lightblue;
+	text-decoration: none;}
+
+.office li{display: inline;}
+
+.office {text-align: center;
+	padding: 10px;}
+
+@media only screen and (min-width:400px) {
+	.container-foto{display: block;}
+	#main{background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/67/63/5757b1bda2a2446.jpg)}
+	#ocultar-footer{display: block;}
+}
