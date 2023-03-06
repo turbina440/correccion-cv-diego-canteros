@@ -57,7 +57,7 @@ padding-right: 10px;}
 	text-align: left;}
 
 body{background-image: URL(MATRIX.jpg);
-	background-image: cover}
+	background-size: cover}
 
 #main h3{color: #200042;
 	text-align: center;
