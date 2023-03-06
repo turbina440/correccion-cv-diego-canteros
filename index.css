@@ -56,7 +56,8 @@ padding-right: 10px;}
 	font-weight: 10px;
 	text-align: left;}
 
-body{background-image: URL(https://www.mheducation.es/download-resource/blog/20-problema-abierto-para-la-computacion-600.jpg);}
+body{background-image: URL(MATRIX.jpg);
+	background-image: cover}
 
 #main h3{color: #200042;
 	text-align: center;
